@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    margin: 0;
+    color: #333;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Add this CSS to your styles.css file */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    margin: auto;
+    padding: 20px; /* Increase padding for larger input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px 50px; /* Increase padding for larger button */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size for larger button text */
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
